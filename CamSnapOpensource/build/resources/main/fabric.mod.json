@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "camsnap",
+  "version": "1.0.0",
+  "name": "CamSnap",
+  "description": "Client-side saved camera positions, HUD layout, alignment guides, and per-world camera slots.",
+  "authors": [
+    "Raul",
+    "RedDude"
+  ],
+  "contact": {
+    "homepage": "https://github.com/RedDude/CamSnap",
+    "sources": "https://github.com/RedDude/CamSnap"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.camsnap.client.CamSnapClient"
+    ],
+    "modmenu": [
+      "net.camsnap.client.CamSnapModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*",
+    "sodium": "*"
+  }
+}
